@@ -156,11 +156,11 @@ module fsm(
 					end
 				COU: begin
 					enmem = 0;
-					enir= 1;
+					enir= 0;
 					enrop1= 0;
 					enrop2= 0;
 					enrio= 0;
-					enpc= 0;
+					enpc= 1;
 					seloper = 0;
 					selmux= 0;
 					end
