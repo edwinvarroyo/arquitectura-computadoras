@@ -22,7 +22,7 @@ module sumador(
     input [13:0] a,
     input [13:0] b,
 	 input oper,
-    output [13:0] c
+    output reg [13:0] c
     );
 	 
 	 always @(a, b)
