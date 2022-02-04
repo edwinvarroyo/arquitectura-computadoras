@@ -27,24 +27,26 @@ module mux(
     input [3:0] d4,
     output [4:0] q
     );
-
-
+	 
+	 parameter COM= 2'b00, A= 2'b01, B=2'b10, C=2'b11;
+	 
+	 
 	always @(posedge clk)
 	begin
 		case(sel)
-			00:begin
+			COM:begin
 					q = d1;
 					q[4] = 1'b0;
 				end
-			01:begin
+			A:begin
 					q = d2;
 					q[4] = 1'b1;
 				end
-			10:begin
+			B:begin
 					q = d3;
 					q[4] = 1'b1;
 				end
-			11:begin
+			C:begin
 					q = d4;
 					q[4] = 1'b1;
 				end
