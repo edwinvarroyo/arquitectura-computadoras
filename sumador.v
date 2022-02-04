@@ -21,11 +21,20 @@
 module sumador(
     input [13:0] a,
     input [13:0] b,
+	 input oper,
     output [13:0] c
     );
 	 
 	 always @(a, b)
-		c = a + b;
+	 begin
+		
+		if(oper)
+			c = a - b;
+		else
+			c = a + b;
+	 
+	 end
+		
 
 
 endmodule
