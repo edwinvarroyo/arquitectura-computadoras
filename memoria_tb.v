@@ -27,7 +27,6 @@ module memoria_tb;
 	// Inputs
 	reg clk;
 	reg en;
-	reg wr;
 	reg [4:0] address;
 	reg [13:0] datain;
 
@@ -38,7 +37,6 @@ module memoria_tb;
 	memoria uut (
 		.clk(clk), 
 		.en(en), 
-		.wr(wr), 
 		.address(address), 
 		.datain(datain), 
 		.dataout(dataout)
@@ -48,7 +46,6 @@ module memoria_tb;
 		// Initialize Inputs
 		clk = 0;
 		en = 0;
-		wr = 0;
 		address = 0;
 		datain = 0;
 
@@ -58,7 +55,6 @@ module memoria_tb;
 		// Add stimulus here
 		
 		address = 4'b0010;
-		en=1'b1;
 		clk = 1'b1;
 		
 		#100;
@@ -68,7 +64,6 @@ module memoria_tb;
 		
 		address = 4'b0100;
 		en=1'b1;
-		wr=1'b1;
 		datain=14'b11111111111111;
 		clk = 1'b1;
 		
@@ -79,8 +74,6 @@ module memoria_tb;
 		#100
 		
 		address = 4'b0100;
-		wr = 0;
-		en=1'b1;
 		clk = 1'b1;
 		
 

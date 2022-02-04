@@ -2,9 +2,9 @@ Command line:
    memoria_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  60789
+     -socket  63646
 
-Tue Feb 01 14:43:43 2022
+Fri Feb 04 14:16:28 2022
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.046875 sec

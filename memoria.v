@@ -23,13 +23,13 @@ module memoria(
     input en,
     input [4:0] address,
     input [13:0] datain,
-    output reg [13:0] dataout
+    output [13:0] dataout
     );
 	 
 	 reg [13:0] mem [31:0];
 	 initial $readmemh("memoria.txt",mem);
 	 
-	 assign dataout = mem[add];
+	 assign dataout = mem[address];
 	 
 	 always @( posedge clk)
 	 begin
