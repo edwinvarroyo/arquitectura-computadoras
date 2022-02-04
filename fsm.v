@@ -59,8 +59,8 @@ module fsm(
 				OP1: futuro = OP2l;
 				OP2: futuro = WC;
 				WC: futuro = COU;
-				GA: futuro = GB;
-				GB: futuro = COU;
+				GA: futuro = WB;
+				WB: futuro = COU;
 				OA: futuro = COU;
 				COU: fututo = F;
 				default futuro = F;
