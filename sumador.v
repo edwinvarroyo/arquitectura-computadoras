@@ -21,17 +21,21 @@
 module sumador(
     input [13:0] a,
     input [13:0] b,
-	 input oper,
+	 input [1:0]oper,
     output reg [13:0] c
     );
 	 
+	 parameter SUM=2'b00, RES= 2'b01, NO = 2'b10; 
+	 
 	 always @(a, b)
 	 begin
-		
-		if(oper)
-			c = a - b;
-		else
-			c = a + b;
+	 
+		case(oper)
+			SUM: c = a+b;
+			RES: c = a-b;
+			NO: c = b;
+			
+		endcase
 	 
 	 end
 		

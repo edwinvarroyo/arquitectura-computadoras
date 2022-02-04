@@ -28,7 +28,7 @@ module fsm(
     output enrop2,
     output enrio,
     output enpc,
-	 output seloper,
+	 output [1:0]seloper,
     output [2:0] selmux
     );
 	 
@@ -108,10 +108,7 @@ module fsm(
 					enrio= 0;
 					enpc= 0;
 					selmux= 2'b10;
-					if(Operacion == RES)
-						seloper = 1;
-					else
-						seloper = 0;
+					seloper = operacion;
 					
 					end
 				WC: begin
@@ -141,7 +138,7 @@ module fsm(
 					enrop2= 0;
 					enrio= 0;
 					enpc= 0;
-					seloper = 0;
+					seloper = operacion;
 					selmux= 2'b10;
 					end
 				OA: begin
