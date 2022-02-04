@@ -20,7 +20,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 module mux(
     input clk,
-    input en,
     input [1:0] sel,
     input [3:0] d1,
     input [3:0] d2,
@@ -32,29 +31,24 @@ module mux(
 
 	always @(posedge clk)
 	begin
-	
-		if(en)
-		begin
-			case(sel)
-				00:begin
-						q = d1;
-						q[4] = 1'b0;
-					end
-				01:begin
-						q = d2;
-						q[4] = 1'b1;
-					end
-				10:begin
-						q = d3;
-						q[4] = 1'b1;
-					end
-				11:begin
-						q = d4;
-						q[4] = 1'b1;
-					end
+		case(sel)
+			00:begin
+					q = d1;
+					q[4] = 1'b0;
+				end
+			01:begin
+					q = d2;
+					q[4] = 1'b1;
+				end
+			10:begin
+					q = d3;
+					q[4] = 1'b1;
+				end
+			11:begin
+					q = d4;
+					q[4] = 1'b1;
+				end
 			endcase
-		end
-		
 	end
 
 endmodule
