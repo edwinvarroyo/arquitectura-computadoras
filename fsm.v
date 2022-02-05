@@ -29,7 +29,7 @@ module fsm(
     output enrio,
     output enpc,
 	 output [1:0]seloper,
-    output [2:0] selmux
+    output [1:0] selmux
     );
 	 
 	 parameter SUM=2'b00, RES= 2'b01, MOV= 2'b10, OUT=2'b11;
@@ -56,7 +56,7 @@ module fsm(
 							OUT: futuro = OA;
 						endcase
 				  end
-				OP1: futuro = OP2l;
+				OP1: futuro = OP2;
 				OP2: futuro = WC;
 				WC: futuro = COU;
 				GA: futuro = WB;

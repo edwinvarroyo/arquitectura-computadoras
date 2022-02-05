@@ -22,7 +22,7 @@ module registro(
     input clk,
     input en,
     input [13:0] datain,
-    output [13:0] dataout
+    output reg[13:0] dataout
     );
 	 
 	 initial dataout = 0;
@@ -31,7 +31,7 @@ module registro(
 	 begin
 	 
 		if(en)
-			datain= dataout;
+			 dataout = datain;
 	 end
 
 

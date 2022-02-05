@@ -1,0 +1,145 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: Main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Main.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Main"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : Main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Verilog\proyectofinal\sumador.v" into library work
+Parsing module <sumador>.
+Analyzing Verilog file "D:\Verilog\proyectofinal\registro.v" into library work
+Parsing module <registro>.
+Analyzing Verilog file "D:\Verilog\proyectofinal\mux.v" into library work
+Parsing module <mux>.
+Analyzing Verilog file "D:\Verilog\proyectofinal\memoria.v" into library work
+Parsing module <memoria>.
+Analyzing Verilog file "D:\Verilog\proyectofinal\fsm.v" into library work
+Parsing module <fsm>.
+ERROR:HDLCompiler:69 - "D:\Verilog\proyectofinal\fsm.v" Line 65: <fututo> is not declared.
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 74: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 74: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 75: Procedural assignment to a non-register enir is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 75: Procedural assignment to a non-register enir is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 76: Procedural assignment to a non-register enrop1 is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 76: Procedural assignment to a non-register enrop1 is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 77: Procedural assignment to a non-register enrop2 is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 77: Procedural assignment to a non-register enrop2 is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 78: Procedural assignment to a non-register enrio is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 78: Procedural assignment to a non-register enrio is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 79: Procedural assignment to a non-register enpc is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 79: Procedural assignment to a non-register enpc is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 80: Procedural assignment to a non-register seloper is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 80: Procedural assignment to a non-register seloper is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 81: Procedural assignment to a non-register selmux is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 81: Procedural assignment to a non-register selmux is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 84: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 84: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
+Sorry, too many errors..
+--> 
+
+Total memory usage is 4478536 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

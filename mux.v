@@ -25,7 +25,7 @@ module mux(
     input [3:0] d2,
     input [3:0] d3,
     input [3:0] d4,
-    output [4:0] q
+    output reg [4:0] q
     );
 	 
 	 parameter COM= 2'b00, A= 2'b01, B=2'b10, C=2'b11;
