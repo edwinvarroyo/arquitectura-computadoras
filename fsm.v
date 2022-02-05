@@ -22,7 +22,6 @@ module fsm(
     input clk,
     input [1:0] operacion,
     output reg enmem,
-	 output reg wrmem,
     output reg enir,
     output reg enrop1,
     output reg enrop2,
@@ -32,10 +31,12 @@ module fsm(
     output reg [1:0] selmux
     );
 	 
+	 initial actual = F;
+	 
 	 parameter SUM=2'b00, RES= 2'b01, MOV= 2'b10, OUT=2'b11;
 	 parameter F = 4'b0000, D = 4'b0001, OP1 = 4'b0010, OP2 = 4'b0011, WC = 4'b0100, COU = 4'b0101, GA = 4'b0110, WB = 4'b0111, OA = 4'b1000; 
 	 
-	 reg [1:0] actual, futuro;
+	 reg [3:0] actual, futuro;
 	 
 	 
 	 always @(posedge clk)
@@ -44,7 +45,7 @@ module fsm(
 	 end
 	 
 	 
-	 always @(actual)
+	 always @(actual, operacion)
 	 begin
 			case(actual)
 				F: futuro = D;
@@ -118,7 +119,7 @@ module fsm(
 					enrop2= 0;
 					enrio= 0;
 					enpc= 0;
-					seloper = 0;
+					seloper = operacion;
 					selmux= 2'b11;
 					end
 				GA: begin

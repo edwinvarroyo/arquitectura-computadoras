@@ -19,7 +19,6 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module mux(
-    input clk,
     input [1:0] sel,
     input [3:0] d1,
     input [3:0] d2,
@@ -28,10 +27,11 @@ module mux(
     output reg [4:0] q
     );
 	 
+	 initial q = 0;
 	 parameter COM= 2'b00, A= 2'b01, B=2'b10, C=2'b11;
 	 
 	 
-	always @(posedge clk)
+	always @(sel, d1, d2, d3, d4)
 	begin
 		case(sel)
 			COM:begin

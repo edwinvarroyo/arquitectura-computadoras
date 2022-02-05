@@ -27,13 +27,13 @@ module sumador(
 	 
 	 parameter SUM=2'b00, RES= 2'b01, NO = 2'b10; 
 	 
-	 always @(a, b)
+	 always @(a, b, oper)
 	 begin
 	 
 		case(oper)
 			SUM: c = a+b;
 			RES: c = a-b;
-			NO: c = b;
+			NO: c = a;
 			
 		endcase
 	 

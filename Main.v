@@ -20,24 +20,26 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Main(
     input clk,
-    input [13:0] Outp
+    output [13:0] Outp
     );
 	 
+	 
 	 wire wenmem, wenir, wenrop1, wenrop2, wenrio, wenpc;
-	 wire [4:0] wadd, wpc;
+	 wire [4:0] wadd;
+	 wire [3:0] wpc;
 	 wire [13:0] wRIo, wdop1, wdop2, wdatain, wmemdo;
 	 wire [1:0] wselmux, wseloper;
 	 
 	 
-	 fsm CONTROL(clk, wRIo[13:12], enmem, enir, enrop1, enrop2, enrio, enpc, wseloper, wselmux);
+	 fsm CONTROL(clk, wRIo[13:12], wenmem, wenir, wenrop1, wenrop2, wenrio, wenpc, wseloper, wselmux);
 	 contador PC(wenpc, clk, wpc);
 	 registro RI(clk, wenir, wmemdo, wRIo);
 	 registro OP1(clk, wenrop1, wmemdo, wdop1);
 	 registro OP2(clk, wenrop2, wmemdo, wdop2);
-	 registro IO(clk, wenrio, wmemdo, dataout);
+	 registro IO(clk, wenrio, wmemdo, Outp);
 	 
-	 sumador(wdop1, wdop2, wseloper, wdatain);
-	 mux addsel(clk, wselmux, wpc, wRIo[11:8], wRIo[7:4], wRIo[3:0], wadd);
+	 sumador ALU(wdop1, wdop2, wseloper, wdatain);
+	 mux addsel(wselmux, wpc, wRIo[11:8], wRIo[7:4], wRIo[3:0], wadd);
 	 memoria mem(clk, wenmem, wadd, wdatain, wmemdo);
 
 endmodule

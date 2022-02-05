@@ -29,7 +29,6 @@ module registro(
 	 
 	 always @(posedge clk)
 	 begin
-	 
 		if(en)
 			 dataout = datain;
 	 end

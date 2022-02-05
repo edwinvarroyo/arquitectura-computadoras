@@ -21,7 +21,7 @@
 module contador(
     input en,
     input clk,
-    output reg [4:0] c
+    output reg [3:0] c
     );
 	 initial c = 0;
 	 always  @(posedge clk)
