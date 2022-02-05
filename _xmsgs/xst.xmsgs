@@ -5,61 +5,151 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 65: &lt;<arg fmt="%s" index="1">fututo</arg>&gt; is not declared.
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 32: Port <arg fmt="%s" index="1">selmux</arg> is not connected to this instance
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 74: Procedural assignment to a non-register <arg fmt="%s" index="1">enmem</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 52: Signal &lt;<arg fmt="%s" index="1">operacion</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 74: Procedural assignment to a non-register <arg fmt="%s" index="1">enmem</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 55: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 75: Procedural assignment to a non-register <arg fmt="%s" index="1">enir</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 56: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 75: Procedural assignment to a non-register <arg fmt="%s" index="1">enir</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 60: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 76: Procedural assignment to a non-register <arg fmt="%s" index="1">enrop1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 61: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 76: Procedural assignment to a non-register <arg fmt="%s" index="1">enrop1</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 62: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 77: Procedural assignment to a non-register <arg fmt="%s" index="1">enrop2</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 63: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 77: Procedural assignment to a non-register <arg fmt="%s" index="1">enrop2</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 64: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 78: Procedural assignment to a non-register <arg fmt="%s" index="1">enrio</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 65: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 78: Procedural assignment to a non-register <arg fmt="%s" index="1">enrio</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 111: Signal &lt;<arg fmt="%s" index="1">operacion</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 79: Procedural assignment to a non-register <arg fmt="%s" index="1">enpc</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 114: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 79: Procedural assignment to a non-register <arg fmt="%s" index="1">enpc</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 124: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 80: Procedural assignment to a non-register <arg fmt="%s" index="1">seloper</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 134: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 80: Procedural assignment to a non-register <arg fmt="%s" index="1">seloper</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 144: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 81: Procedural assignment to a non-register <arg fmt="%s" index="1">selmux</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"D:\Verilog\proyectofinal\fsm.v" Line 154: case condition never applies
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 81: Procedural assignment to a non-register <arg fmt="%s" index="1">selmux</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 32: Assignment to <arg fmt="%s" index="1">enmem</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 84: Procedural assignment to a non-register <arg fmt="%s" index="1">enmem</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 32: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">enpc</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Verilog\proyectofinal\fsm.v" Line 84: Procedural assignment to a non-register <arg fmt="%s" index="1">enmem</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\Verilog\proyectofinal\contador.v" Line 30: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dataout</arg>&gt;. Formal port size is <arg fmt="%d" index="2">14</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 37: Assignment to <arg fmt="%s" index="1">dataout</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 39: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:\Verilog\proyectofinal\sumador.v" Line 33: Signal &lt;<arg fmt="%s" index="1">oper</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 40: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">d1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"D:\Verilog\proyectofinal\Main.v" Line 26: Net &lt;<arg fmt="%s" index="1">wenmem</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">32</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">CONTROL</arg>&gt; of block &lt;<arg fmt="%s" index="4">fsm</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">33</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC</arg>&gt; of block &lt;<arg fmt="%s" index="4">contador</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">34</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RI</arg>&gt; of block &lt;<arg fmt="%s" index="4">registro</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">35</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">OP1</arg>&gt; of block &lt;<arg fmt="%s" index="4">registro</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">36</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">OP2</arg>&gt; of block &lt;<arg fmt="%s" index="4">registro</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IO</arg>&gt; of block &lt;<arg fmt="%s" index="4">registro</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">39</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">_i000001</arg>&gt; of block &lt;<arg fmt="%s" index="4">sumador</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">40</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">addsel</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%d" index="2">41</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mem</arg>&gt; of block &lt;<arg fmt="%s" index="4">memoria</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Main</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Outp</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">selmux</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">enmem</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">wrmem</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">enir</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">enrop1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">enrop2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">enrio</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CONTROL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\Verilog\proyectofinal\Main.v</arg>&quot; line <arg fmt="%s" index="2">37</arg>: Output port &lt;<arg fmt="%s" index="3">dataout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">IO</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wenmem</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wenir</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wenrop1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wenrop2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wenrio</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wenpc</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
 </messages>

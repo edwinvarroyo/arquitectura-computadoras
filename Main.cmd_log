@@ -6,3 +6,5 @@ xst -intstyle ise -ifn "D:/Verilog/proyectofinal/Main.xst" -ofn "D:/Verilog/proy
 xst -intstyle ise -ifn "D:/Verilog/proyectofinal/Main.xst" -ofn "D:/Verilog/proyectofinal/Main.syr" 
 xst -intstyle ise -ifn "D:/Verilog/proyectofinal/Main.xst" -ofn "D:/Verilog/proyectofinal/Main.syr" 
 xst -intstyle ise -ifn "D:/Verilog/proyectofinal/Main.xst" -ofn "D:/Verilog/proyectofinal/Main.syr" 
+xst -intstyle ise -ifn "D:/Verilog/proyectofinal/Main.xst" -ofn "D:/Verilog/proyectofinal/Main.syr" 
+xst -intstyle ise -ifn "D:/Verilog/proyectofinal/Main.xst" -ofn "D:/Verilog/proyectofinal/Main.syr" 

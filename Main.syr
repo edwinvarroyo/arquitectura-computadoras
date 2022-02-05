@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
@@ -115,31 +115,218 @@ Analyzing Verilog file "D:\Verilog\proyectofinal\memoria.v" into library work
 Parsing module <memoria>.
 Analyzing Verilog file "D:\Verilog\proyectofinal\fsm.v" into library work
 Parsing module <fsm>.
-ERROR:HDLCompiler:69 - "D:\Verilog\proyectofinal\fsm.v" Line 65: <fututo> is not declared.
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 74: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 74: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 75: Procedural assignment to a non-register enir is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 75: Procedural assignment to a non-register enir is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 76: Procedural assignment to a non-register enrop1 is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 76: Procedural assignment to a non-register enrop1 is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 77: Procedural assignment to a non-register enrop2 is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 77: Procedural assignment to a non-register enrop2 is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 78: Procedural assignment to a non-register enrio is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 78: Procedural assignment to a non-register enrio is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 79: Procedural assignment to a non-register enpc is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 79: Procedural assignment to a non-register enpc is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 80: Procedural assignment to a non-register seloper is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 80: Procedural assignment to a non-register seloper is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 81: Procedural assignment to a non-register selmux is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 81: Procedural assignment to a non-register selmux is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 84: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "D:\Verilog\proyectofinal\fsm.v" Line 84: Procedural assignment to a non-register enmem is not permitted, left-hand side should be reg/integer/time/genvar
-Sorry, too many errors..
+Analyzing Verilog file "D:\Verilog\proyectofinal\contador.v" into library work
+Parsing module <contador>.
+Analyzing Verilog file "D:\Verilog\proyectofinal\Main.v" into library work
+Parsing module <Main>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "D:\Verilog\proyectofinal\Main.v" Line 32: Port selmux is not connected to this instance
+
+Elaborating module <Main>.
+
+Elaborating module <fsm>.
+WARNING:HDLCompiler:91 - "D:\Verilog\proyectofinal\fsm.v" Line 52: Signal <operacion> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "D:\Verilog\proyectofinal\fsm.v" Line 55: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Verilog\proyectofinal\fsm.v" Line 56: Result of 4-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Verilog\proyectofinal\fsm.v" Line 60: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 61: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 62: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 63: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 64: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 65: case condition never applies
+WARNING:HDLCompiler:91 - "D:\Verilog\proyectofinal\fsm.v" Line 111: Signal <operacion> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 114: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 124: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 134: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 144: case condition never applies
+WARNING:HDLCompiler:295 - "D:\Verilog\proyectofinal\fsm.v" Line 154: case condition never applies
+WARNING:HDLCompiler:1127 - "D:\Verilog\proyectofinal\Main.v" Line 32: Assignment to enmem ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "D:\Verilog\proyectofinal\Main.v" Line 32: Size mismatch in connection of port <enpc>. Formal port size is 1-bit while actual signal size is 2-bit.
+
+Elaborating module <contador>.
+WARNING:HDLCompiler:413 - "D:\Verilog\proyectofinal\contador.v" Line 30: Result of 6-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <registro>.
+WARNING:HDLCompiler:189 - "D:\Verilog\proyectofinal\Main.v" Line 37: Size mismatch in connection of port <dataout>. Formal port size is 14-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "D:\Verilog\proyectofinal\Main.v" Line 37: Assignment to dataout ignored, since the identifier is never used
+WARNING:HDLCompiler:604 - "D:\Verilog\proyectofinal\Main.v" Line 39: Module instantiation should have an instance name
+
+Elaborating module <sumador>.
+WARNING:HDLCompiler:91 - "D:\Verilog\proyectofinal\sumador.v" Line 33: Signal <oper> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <mux>.
+WARNING:HDLCompiler:189 - "D:\Verilog\proyectofinal\Main.v" Line 40: Size mismatch in connection of port <d1>. Formal port size is 4-bit while actual signal size is 5-bit.
+
+Elaborating module <memoria>.
+Reading initialization file \"memoria.txt\".
+WARNING:HDLCompiler:634 - "D:\Verilog\proyectofinal\Main.v" Line 26: Net <wenmem> does not have a driver.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 32. All outputs of instance <CONTROL> of block <fsm> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 33. All outputs of instance <PC> of block <contador> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 34. All outputs of instance <RI> of block <registro> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 35. All outputs of instance <OP1> of block <registro> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 36. All outputs of instance <OP2> of block <registro> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 37. All outputs of instance <IO> of block <registro> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 39. All outputs of instance <_i000001> of block <sumador> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 40. All outputs of instance <addsel> of block <mux> are unconnected in block <Main>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Verilog\proyectofinal\Main.v" line 41. All outputs of instance <mem> of block <memoria> are unconnected in block <Main>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Main>.
+    Related source file is "D:\Verilog\proyectofinal\Main.v".
+WARNING:Xst:647 - Input <Outp> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 32: Output port <selmux> of the instance <CONTROL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 32: Output port <enmem> of the instance <CONTROL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 32: Output port <wrmem> of the instance <CONTROL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 32: Output port <enir> of the instance <CONTROL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 32: Output port <enrop1> of the instance <CONTROL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 32: Output port <enrop2> of the instance <CONTROL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 32: Output port <enrio> of the instance <CONTROL> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Verilog\proyectofinal\Main.v" line 37: Output port <dataout> of the instance <IO> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <wenmem> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <wenir> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <wenrop1> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <wenrop2> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <wenrio> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <wenpc> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Main> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Main> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Main, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Main.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          15
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.96 secs
+ 
 --> 
 
-Total memory usage is 4478536 kilobytes
+Total memory usage is 4674844 kilobytes
 
-Number of errors   :   19 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   41 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
 

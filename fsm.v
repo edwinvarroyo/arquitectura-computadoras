@@ -21,15 +21,15 @@
 module fsm(
     input clk,
     input [1:0] operacion,
-    output enmem,
-	 output wrmem,
-    output enir,
-    output enrop1,
-    output enrop2,
-    output enrio,
-    output enpc,
-	 output [1:0]seloper,
-    output [1:0] selmux
+    output reg enmem,
+	 output reg wrmem,
+    output reg enir,
+    output reg enrop1,
+    output reg enrop2,
+    output reg enrio,
+    output reg enpc,
+	 output reg [1:0]seloper,
+    output reg [1:0] selmux
     );
 	 
 	 parameter SUM=2'b00, RES= 2'b01, MOV= 2'b10, OUT=2'b11;
@@ -62,7 +62,7 @@ module fsm(
 				GA: futuro = WB;
 				WB: futuro = COU;
 				OA: futuro = COU;
-				COU: fututo = F;
+				COU: futuro = F;
 				default futuro = F;
 			endcase
 	 end

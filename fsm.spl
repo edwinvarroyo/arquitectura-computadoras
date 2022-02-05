@@ -1,0 +1,17 @@
+[Inputs]
+clk
+=operacion[1:0]=
+[Outputs]
+enmem
+wrmem
+enir
+enrop1
+enrop2
+enrio
+enpc
+=seloper[1:0]=
+=selmux[1:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel fsm
+

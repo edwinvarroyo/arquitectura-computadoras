@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Verilog/proyectofinal/fsm.v -lang verilog -prj proyectofinal -o fsm.spl -module fsm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 fsm.spl D:/Verilog/proyectofinal/fsm.sym 
