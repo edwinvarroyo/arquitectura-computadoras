@@ -21,6 +21,7 @@
 module fsm(
     input clk,
     input [1:0] operacion,
+	 input [3:0] pc,
     output reg enmem,
     output reg enir,
     output reg enrop1,
@@ -34,7 +35,7 @@ module fsm(
 	 initial actual = F;
 	 
 	 parameter SUM=2'b00, RES= 2'b01, MOV= 2'b10, OUT=2'b11;
-	 parameter F = 4'b0000, D = 4'b0001, OP1 = 4'b0010, OP2 = 4'b0011, WC = 4'b0100, COU = 4'b0101, GA = 4'b0110, WB = 4'b0111, OA = 4'b1000; 
+	 parameter F = 4'b0000, D = 4'b0001, OP1 = 4'b0010, OP2 = 4'b0011, WC = 4'b0100, COU = 4'b0101, GA = 4'b0110, WB = 4'b0111, OA = 4'b1000, END= 4'b1111; 
 	 
 	 reg [3:0] actual, futuro;
 	 
@@ -45,7 +46,7 @@ module fsm(
 	 end
 	 
 	 
-	 always @(actual, operacion)
+	 always @(actual, operacion, pc)
 	 begin
 			case(actual)
 				F: futuro = D;
@@ -63,7 +64,13 @@ module fsm(
 				GA: futuro = WB;
 				WB: futuro = COU;
 				OA: futuro = COU;
-				COU: futuro = F;
+				COU: begin
+						if(pc == END)
+							futuro = END;
+						else
+							futuro = F;
+					  end
+				END: futuro = END;
 				default futuro = F;
 			endcase
 	 end
@@ -159,6 +166,16 @@ module fsm(
 					enrop2= 0;
 					enrio= 0;
 					enpc= 1;
+					seloper = 0;
+					selmux= 0;
+					end
+				END: begin
+					enmem = 0;
+					enir= 0;
+					enrop1= 0;
+					enrop2= 0;
+					enrio= 0;
+					enpc= 0;
 					seloper = 0;
 					selmux= 0;
 					end

@@ -31,7 +31,7 @@ module Main(
 	 wire [1:0] wselmux, wseloper;
 	 
 	 
-	 fsm CONTROL(clk, wRIo[13:12], wenmem, wenir, wenrop1, wenrop2, wenrio, wenpc, wseloper, wselmux);
+	 fsm CONTROL(clk, wRIo[13:12], wpc,wenmem, wenir, wenrop1, wenrop2, wenrio, wenpc, wseloper, wselmux);
 	 contador PC(wenpc, clk, wpc);
 	 registro RI(clk, wenir, wmemdo, wRIo);
 	 registro OP1(clk, wenrop1, wmemdo, wdop1);
